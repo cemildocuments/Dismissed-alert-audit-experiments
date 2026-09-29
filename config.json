@@ -1,0 +1,83 @@
+{
+  "seed": 2902026,
+  "workers": 12,
+  "alpha": 0.05,
+  "synthetic": {
+    "N": 4096,
+    "m": 256,
+    "K": [
+      20,
+      82,
+      205,
+      410
+    ],
+    "delay_ratios": [
+      1,
+      4,
+      16,
+      64
+    ],
+    "repetitions": 50000,
+    "times": [
+      0.25,
+      0.5,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ]
+  },
+  "replay": {
+    "cohort_size": 4096,
+    "audit_size": 256,
+    "threshold": 0.1,
+    "repetitions": 1000,
+    "delay_ratio": 16,
+    "times": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "rate_target": 0.02
+  },
+  "queue": {
+    "total_service": 32,
+    "reserved_service": 4,
+    "batch": 256,
+    "batch_period": 64,
+    "batches": 16,
+    "horizon": 1408,
+    "loads": [
+      0,
+      0.5,
+      0.8,
+      0.9,
+      1,
+      1.2,
+      1.5
+    ],
+    "repetitions": 2000,
+    "benign_delay": 2,
+    "rate_target": 0.02
+  },
+  "ppr_priors": {
+    "diffuse": [
+      0.5,
+      0.5
+    ],
+    "risk_informed": [
+      0.5,
+      24.5
+    ]
+  }
+}

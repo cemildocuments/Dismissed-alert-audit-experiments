@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/ait-aecid/alert-data-set",
+  "commit": "ce927ddaeaa674f6909e1de676fa7dc293e393bd",
+  "files": [
+    {
+      "name": "alerts_csv.zip",
+      "url": "https://raw.githubusercontent.com/ait-aecid/alert-data-set/ce927ddaeaa674f6909e1de676fa7dc293e393bd/alerts_csv/alerts_csv.zip",
+      "sha256": "2bf1a81527a3fe15d92079a7834c9d77c5305546e15569657d2097d6294825c3",
+      "bytes": 3429496
+    }
+  ]
+}

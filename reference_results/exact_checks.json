@@ -1,0 +1,9 @@
+{
+  "lookup_cross_checks": 750,
+  "finite_population_cases": 5524,
+  "completion_summaries": 118754,
+  "max_exact_failure": 0.05,
+  "ppr_path_cases": 65,
+  "max_ppr_failure": 0.011904761904761904,
+  "status": "passed"
+}
